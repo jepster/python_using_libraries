@@ -6,6 +6,7 @@ import random
 from .ImportInterface import ImportInterface
 from .Cat import Cat
 
+
 class PDFImporter(ImportInterface):
     allowed_extensions = ['pdf']
 
